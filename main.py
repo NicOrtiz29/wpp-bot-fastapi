@@ -7,7 +7,7 @@ app = FastAPI()
 
 # Configuración desde variables de entorno o valores por defecto
 EVOLUTION_API_URL = os.getenv("EVOLUTION_API_URL", "http://localhost:8080")
-EVOLUTION_API_KEY = os.getenv("EVOLUTION_API_KEY", "LaSuperCl@v3Secret@1!")
+EVOLUTION_API_KEY = os.getenv("EVOLUTION_API_KEY")
 INSTANCE_NAME = os.getenv("INSTANCE_NAME", "mi-primer-chatbot")
 CLIENTES_DIR = os.getenv("CLIENTES_DIR", "clientes")  # Carpeta donde están los archivos de clientes
 
